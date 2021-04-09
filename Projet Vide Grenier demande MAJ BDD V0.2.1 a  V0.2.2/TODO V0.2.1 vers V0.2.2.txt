@@ -1,0 +1,25 @@
+Suite au point du 10-06 cf "Point sur changement besoins clients 10-06-2020.docx"
+On passe a un mode paiement en ligne avec des places disponibles pour le paiement en ligne
+Des places auront le statut non-disponible mais seront vendables uniquement hors ligne (via manifestation ou sur le marché).
+Ces places pourront pour tout ou partie repasser en statut "disponible" et donc disponible à la vente en lignee ou ne jamais être vendues pour ce Vide Grenier.
+
+Liste non exaustive du changement de contexte (voir les fichiers fournis) : 
+
+*Back office : les modifications à la bdd et saisie des reservations seront mise à jour ultérieurement de facon sécurisée
+*modifie statut réservation (2 status) : reservation en cours  / en attente de validation des informations saisies, de paiement ou autre
+*modifie statut réservation (2 status) : statut reservé définitivement (info, paiement validé et emplacement défini)
+*Back Office- Ajout statut emplacement : dispo = achetable par billeterie Web
+*Back Office- Ajout statut emplacement :  pas dispo = achetable par billeterie physique uniquement
+*Back office, ajout fonctionnalité : admin doit pouvoir réserver des emplacements  manuellement et aussi changer le statut dispo pas dispo des emplacements ce qui modifiera le nombre total disponible (et donc le nombre de reservations possible via billeterie web)
+* 1 compte utilisateur 1 réservation pour le moment, evolution a 1 compte plusieurs réservations prévisibles en fin de projet
+
+
+TODO : 
+
+Taggé la MAJ en V0.2.2
+
+Faire un jeu de test fonctionnel sur les nouvelles fonctionnalités et modifications apportées (insertion affichage etc voir fichier VG-0.2.1_CodeSQLCreationBddVidegrenier.docx)
+Livrer un export de la BDD comportant les majs testées SANS Régressions
+Livrer la maj inhérente du script de création automatique de la bdd avec les BDD les nouvelles fonctionnalités et modifications apportées
+Mettre a jour MCD ET MLD associés
+Mettre a jour le dictionnaire de données

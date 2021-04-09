@@ -1,0 +1,10 @@
+1) Créer la Base de donnée MySQL ou Maria DB du projet permettant l'inscription des utilisateurs ainsi que la gestion du Vide Grenier et de la mailing list à partir du "Cahier-des-charges-cil-V.0.1" et de la synthese "Synthese CDC 10-06-2020" .
+
+2) Réaliser les maquettes suivant les instructions du "Site map Web App Front V0.2.pdf"
+
+3) Puis développer les pages restantes en faisant vos propres maquettes en implémentant les fonctionnalités suivant les recommandations du "Site map Web App Front V0.2.pdf"
+
+4) Pour la livraison : 
+Versionner vos réalisations en V0.2.0.1.
+Regrouper les fichiers dans un livrable (zip) avec un document indiquant les éléments nécessaires pour la livraison (tests des fonctionnalités (ex: commandes SQL d'insertion et d'affichage des datas), implémentation des modules, logins mot de passes, bdd en .sql, ).
+Penser à l'intégration continue, indiquez les éléments importants à connaitre et le reste à implémenter.
